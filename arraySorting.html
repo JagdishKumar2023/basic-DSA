@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>array sorting</title>
+    <script>
+      let data = [40, 30, 25, 12, 20, 10, 22, 24];
+
+      for (i = 0; i < data.length; i++) {
+        for (j = 0; j < data.length; j++) {
+          if (data[j] > data[j + 1]) {
+            let temp = data[j];
+            data[j] = data[j + 1];
+            data[j + 1] = temp;
+          }
+        }
+      }
+      console.warn(data);
+    </script>
+  </head>
+  <body>
+    <h1>array sorting in javascript</h1>
+  </body>
+</html>

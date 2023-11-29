@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>search element in array</title>
+    <script>
+      let data = [10, 15, 20, 25, 30, 35, 40, 45, 50, 55, 60];
+      let item = 50;
+      let index = undefined;
+
+      for (i = 0; i < data.length - 1; i++) {
+        // console.log(data[i]);
+        if (data[i] === item) {
+          index = i;
+        }
+      }
+      console.warn(index);
+      console.warn(data.typeof(item)); // By default function in javascript
+    </script>
+  </head>
+  <body></body>
+</html>
